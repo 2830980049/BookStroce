@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/AdminDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/BookDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/CartDetailDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/CollectionDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/impl/AdminDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/impl/BookDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/impl/CartDetailDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/impl/CollectionDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/dao/impl/UserDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/Admin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/Admin_Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/Car.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/Collection.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/PageBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/entity/UserOrderList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/filter/PageFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/AdminService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/BookService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/CollectionService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/impl/AdminServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/impl/BookServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/impl/CollectionServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/service/impl/UserServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/AdminBookServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/Admin_EditBookServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/Admin_UpdatePriceSelvlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/Admin_queryBooksSerlvet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/Admin_queryServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/CheckAdminPassword.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/CheckAdminPasswords.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/CheckAdminPasswordsServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/UserServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/admin/checkBoosServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/BookDetailServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/CollectionsServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/SaveCartServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/SearchServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/UserCheckNameServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/UserCheckPhoneServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/UserExitServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/UserSaveServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/servlet/user/UserSerlvet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/test/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/tarena/util/DBUtil.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

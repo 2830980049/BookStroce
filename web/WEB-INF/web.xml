@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+    <display-name>BookStore</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>userLogin</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UserSerlvet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userLogin</servlet-name>
+        <url-pattern>/user/page/userLogin.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>check</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UserCheckNameServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>check</servlet-name>
+        <url-pattern>/user/page/checkName.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkphone</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UserCheckPhoneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkphone</servlet-name>
+        <url-pattern>/user/page/checkPhone.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveuser</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UserSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saveuser</servlet-name>
+        <url-pattern>/user/page/regist.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exit</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UserExitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exit</servlet-name>
+        <url-pattern>/user/page/exit.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <servlet-class>com.tarena.servlet.user.SearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/user/page/search.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>detail</servlet-name>
+        <servlet-class>com.tarena.servlet.user.BookDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>detail</servlet-name>
+        <url-pattern>/user/page/detail.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveCart</servlet-name>
+        <servlet-class>com.tarena.servlet.user.SaveCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saveCart</servlet-name>
+        <url-pattern>/user/page/saveCart.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saveCollect</servlet-name>
+        <servlet-class>com.tarena.servlet.user.SaveOrDeleteCollectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saveCollect</servlet-name>
+        <url-pattern>/user/page/collect.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Collections</servlet-name>
+        <servlet-class>com.tarena.servlet.user.CollectionsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Collections</servlet-name>
+        <url-pattern>/user/page/collections.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CartDetailQuery</servlet-name>
+        <servlet-class>com.tarena.servlet.user.CartDetailQueryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CartDetailQuery</servlet-name>
+        <url-pattern>/user/page/CartDetailQuery.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>delCartDetail</servlet-name>
+        <servlet-class>com.tarena.servlet.user.DelCartDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delCartDetail</servlet-name>
+        <url-pattern>/user/page/delCartDetail.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>buyNow</servlet-name>
+        <servlet-class>com.tarena.servlet.user.BuyNowServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>buyNow</servlet-name>
+        <url-pattern>/user/page/buyNow.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateOrder</servlet-name>
+        <servlet-class>com.tarena.servlet.user.UpdateOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateOrder</servlet-name>
+        <url-pattern>/user/page/UpDateOrder.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>orderList</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.QueryOrderListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>orderList</servlet-name>
+        <url-pattern>/admin/page/orderList.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>lookOrderDetail</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.LookOrderDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lookOrderDetail</servlet-name>
+        <url-pattern>/admin/page/lookOrderDetail.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderProcess</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.OrderProcessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderProcess</servlet-name>
+        <url-pattern>/admin/page/OrderProcess.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveOrderStap</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.SaveOrderStaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveOrderStap</servlet-name>
+        <url-pattern>/admin/page/SaveOrderStap.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderClassify</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.QueryOrderClassifyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderClassify</servlet-name>
+        <url-pattern>/admin/page/orderClassify.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>adminLogin</servlet-name>
+        <servlet-class>com.tarena.servlet.admin.UserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminLogin</servlet-name>
+        <url-pattern>/admin/page/adminLogin.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>queryBooks</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.Admin_queryBooksSerlvet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>queryBooks</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/queryBooks.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>querys</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.Admin_queryServlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>querys</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/query.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updatePrice</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.Admin_UpdatePriceSelvlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatePrice</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/updatePrice.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editBooks</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.Admin_EditBookServlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editBooks</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/edit.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addBook</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.AdminBookServlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addBook</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/addBooks.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkIsbns</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.checkBoosServlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkIsbns</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/checkIsbn.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>updatepwds</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.CheckAdminPasswords</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updatepwds</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/updatePassword.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CheckPassword</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.CheckAdminPassword</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckPassword</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/checkPassword.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckPasswords</servlet-name>
+        <!-- servlet的别名（自定义的) -->
+        <servlet-class>com.tarena.servlet.admin.CheckAdminPasswordsServlet</servlet-class>
+        <!--包名.包名.Servlet类名-->
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckPasswords</servlet-name>
+        <!--servlet的别名（与上面定义的别名保持一致）-->
+        <url-pattern>/admin/page/checkPasswords.do</url-pattern>
+        <!--/访问路径-->
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>pageFilter</filter-name>
+        <filter-class>com.tarena.filter.PageFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>pageFilter</filter-name>
+        <url-pattern>/user/page/index.jsp</url-pattern>
+    </filter-mapping>
+</web-app>
